@@ -1,4 +1,4 @@
-# 使用`LinkedHashMap`实现
+# 使用 LinkedHashMap 实现
 ## LinkedHashMap 介绍
 ### 特性
 - 可以按照插入顺序有序遍历
