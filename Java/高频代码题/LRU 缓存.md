@@ -5,18 +5,18 @@
 - 可以按照元素访问顺序排序
 - 内部使用双向链表
 ### 使用
-#### 遍历
+#### 1. 遍历
 ##### 按照插入顺序
 直接创建
 ##### 按照访问顺序
-排序模式：`accessOrder`属性，true 为按照访问顺序，false 为按照插入顺序  
+排序模式：accessOrder 属性，true 为按照访问顺序，false 为按照插入顺序  
 构造：`LinkedHashMap<Integer, String> map = new LinkedHashMap<>(16, 0.75f, true);`
-#### 移除
+#### 2. 移除
 `removeEldestEntry`方法返回一个 boolean 值，判断是否需要移除链表首元素  
 超出容量时返回 true
-#### get 方法
+#### 3. get 方法
 `accessOrder`为 true 时，在元素查询完成后，将当前访问的元素移动到链表末尾  
-#### put 方法
+#### 4. put 方法
 如果 key 已经存在，则更新 value  
 如果 key 不存在，在末尾插入，并判断是否需要移除链表首元素  
 ## 实现思路
