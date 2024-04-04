@@ -1,7 +1,7 @@
-## 215.数组中的第K个最大元素
+# 215.数组中的第K个最大元素
 给定整数数组 nums 和整数 k，请返回数组中第 k 个最大的元素。
 
-### 优先队列
+## 优先队列
 ```java
 class Solution {
     public Queue<Integer> priorityQueue = new PriorityQueue();
@@ -24,7 +24,7 @@ class Solution {
 }
 ```
 
-### 划分
+## 划分
 ```java
 class Solution {
     public int partion(int[] nums, int start, int end) {
