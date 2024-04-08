@@ -24,7 +24,8 @@ class Solution {
 }
 ```
 
-## 划分
+## 划分  
+注意划分时是降序排列  
 ```java
 class Solution {
     public int partion(int[] nums, int start, int end) {
